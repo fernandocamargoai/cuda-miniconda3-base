@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM $BASE_IMAGE
+FROM nvidia/cuda:10.1-cudnn8-devel-ubuntu18.04
 
 MAINTAINER fernandocamargoai <fernando.camargo.ai@gmail.com>
 
